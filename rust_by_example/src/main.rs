@@ -2,6 +2,7 @@ mod conversion;
 mod custom_types;
 mod expressions;
 mod flow_of_control;
+mod functions;
 mod hello_world;
 mod primitives;
 mod types;
@@ -18,4 +19,5 @@ fn main() {
     conversion::main();
     expressions::main();
     flow_of_control::main();
+    functions::main();
 }
